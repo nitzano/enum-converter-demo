@@ -14,7 +14,7 @@
     "debug": "yarn build && node --inspect=0.0.0.0:9229 --nolazy ./build/server.js",
     "dev": "yarn nodemon src/server.ts",
     "prebuild": "yarn clean",
-    "start": "node ./build/server.js --stream",
+    "start": "node ./build/server.js --stream"
   },
   "keywords": [],
   "license": "ISC",
