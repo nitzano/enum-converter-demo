@@ -4726,7 +4726,7 @@ entities@^2.0.0:
   resolved "https://registry.yarnpkg.com/entities/-/entities-2.2.0.tgz#098dc90ebb83d8dffa089d55256b351d34c4da55"
   integrity sha512-p92if5Nz619I0w+akJrLZH0MX0Pb5DX39XOwQTtXSdQQOaYH03S1uIQp4mhOZtAXrxq4ViO67YTiLBo2638o9A==
 
-enum-converter@^1.4.6:
+enum-converter@latest:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/enum-converter/-/enum-converter-1.4.6.tgz#ddac846d083471c042352b81b173f837fb0e1b8d"
   integrity sha512-+Tepy0h43UiBGA8EbKJBt2iYsRNGGM5tt+yCxOb9A6bqsOCAIoWzuiPnfL16UuuAikVEhqHS0Bx9EfGR4mQSRg==
