@@ -1,6 +1,5 @@
 import express from "express";
 import morgan from "morgan";
-import apiRouter from "./app/api";
 import { apolloServer } from "./app/schemas/schema";
 
 export const app = express();
@@ -11,9 +10,6 @@ app.use(morgan("tiny"));
 
 // settings
 app.set("json spaces", 2);
-
-// routes
-app.use("/api", apiRouter);
 
 // graphql
 apolloServer.applyMiddleware({ app, path: "/api/graphql" });
@@ -32,4 +28,3 @@ app.use(
     return next(err);
   }
 );
-
