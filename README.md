@@ -1,9 +1,8 @@
-# Enum Converter
+# Enum Converter Demo
 
-Container project for enum converter's packages
+Enum converter demo website
 
 ## Packages
 
-- enum-converter - Convert enums from one language to another
 - enum-converter-api - back-end api
 - enum-converter-web - web version
