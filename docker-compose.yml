@@ -25,7 +25,6 @@ services:
       - ./packages/enum-converter-api/package.json:/usr/src/app/packages/enum-converter-api/package.json
       - ./packages/enum-converter-api/src:/usr/src/app/packages/enum-converter-api/src
       - ./packages/enum-converter-api/build:/usr/src/app/packages/enum-converter-api/build
-      - static-volume:/usr/src/app/packages/enum-converter-api/static
   web:
     image: enumc:base
     working_dir: /usr/src/app/packages/enum-converter-web
@@ -41,6 +40,4 @@ services:
     volumes:
       - ./packages/enum-converter-web/src:/usr/src/app/packages/enum-converter-web/src
       - ./packages/enum-converter-web/public:/usr/src/app/packages/enum-converter-web/public
-      - static-volume:/usr/src/app/packages/enum-converter-web/build
-volumes:
-  static-volume:
+
