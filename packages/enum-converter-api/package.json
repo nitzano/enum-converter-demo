@@ -15,8 +15,6 @@
     "dev": "yarn nodemon src/server.ts",
     "prebuild": "yarn clean",
     "start": "node ./build/server.js --stream",
-    "now-build": "yarn build",
-    "test": "echo test ok"
   },
   "keywords": [],
   "license": "ISC",
